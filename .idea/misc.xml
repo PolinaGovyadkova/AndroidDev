@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.21041666666666667" />
+        <entry key="..\:/Users/Asus/lab2_android/app/lab2_3/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2815" />
+        <entry key="..\:/Users/Asus/lab2_android/app/lab2_3/src/main/res/drawable/ic_launcher_background.xml" value="0.2815" />
+        <entry key="..\:/Users/Asus/lab2_android/app/lab2_3/src/main/res/layout/activity_book_card_acticity.xml" value="0.37135416666666665" />
+        <entry key="..\:/Users/Asus/lab2_android/app/lab2_3/src/main/res/layout/activity_edit_train.xml" value="0.33" />
+        <entry key="..\:/Users/Asus/lab2_android/app/lab2_3/src/main/res/layout/activity_house_acticity.xml" value="0.24818840579710144" />
+        <entry key="..\:/Users/Asus/lab2_android/app/lab2_3/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Asus/lab2_android/app/lab2_3/src/main/res/layout/activity_search.xml" value="0.37135416666666665" />
+        <entry key="..\:/Users/Asus/lab2_android/app/lab2_3/src/main/res/layout/fragment.xml" value="0.1" />
+        <entry key="..\:/Users/Asus/lab2_android/app/lab2_3/src/main/res/layout/fragment_my.xml" value="0.1" />
+        <entry key="..\:/Users/Asus/lab2_android/app/lab2_3/src/main/res/layout/main_list_item.xml" value="0.18059777102330293" />
+        <entry key="..\:/Users/Asus/lab2_android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.164" />
+        <entry key="..\:/Users/Asus/lab2_android/app/src/main/res/drawable/ic_launcher_background.xml" value="0.164" />
+        <entry key="..\:/Users/Asus/lab2_android/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/lab2_3/src/main/res/layout/activity_edit_train.xml" value="0.3578125" />
+        <entry key="app/lab2_3/src/main/res/layout/activity_main.xml" value="0.21" />
+        <entry key="app/lab2_3/src/main/res/layout/activity_search.xml" value="0.4635352286773795" />
+        <entry key="app/lab2_3/src/main/res/layout/activity_task.xml" value="0.3578125" />
+        <entry key="app/lab2_3/src/main/res/layout/activity_train_card_acticity.xml" value="0.5" />
+        <entry key="app/lab2_3/src/main/res/layout/main_list_item.xml" value="0.9197012138188608" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1953125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

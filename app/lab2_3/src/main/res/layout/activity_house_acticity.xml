@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    tools:context=".HouseActicity">
+
+    <TextView
+        android:id="@+id/id_caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="24dp"
+        android:text="Id: "
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBaseline_toBaselineOf="@id/id_caption"
+        app:layout_constraintLeft_toRightOf="@id/id_caption"
+        android:fontFamily="serif-monospace"
+
+        android:text="Lorem ipsum"
+        />
+
+    <TextView
+        android:id="@+id/number_caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="24dp"
+        android:text="Номер квартиры: "
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/id_caption"
+
+        />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBaseline_toBaselineOf="@id/number_caption"
+        app:layout_constraintLeft_toRightOf="@id/number_caption"
+        android:fontFamily="serif-monospace"
+        android:text="Lorem ipsum"
+        />
+
+    <TextView
+        android:id="@+id/square_caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="24dp"
+        android:text="Площадь: "
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/number_caption"
+
+        />
+
+    <TextView
+        android:id="@+id/square"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBaseline_toBaselineOf="@id/square_caption"
+        app:layout_constraintLeft_toRightOf="@id/square_caption"
+        android:fontFamily="serif-monospace"
+        android:text="Lorem ipsum"
+        />
+
+    <TextView
+        android:id="@+id/floor_caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="24dp"
+        android:text="Этаж: "
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/square_caption"
+
+        />
+
+    <TextView
+        android:id="@+id/floor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBaseline_toBaselineOf="@id/floor_caption"
+        app:layout_constraintLeft_toRightOf="@id/floor_caption"
+        android:fontFamily="serif-monospace"
+        android:text="Lorem ipsum"
+        />
+
+    <TextView
+        android:id="@+id/floorCount_caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="24dp"
+        android:text="Количество комнат: "
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/floor_caption"
+
+        />
+
+    <TextView
+        android:id="@+id/floorCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="96dp"
+        android:fontFamily="serif-monospace"
+        android:text="Lorem ipsum"
+        app:layout_constraintBaseline_toBaselineOf="@id/floorCount_caption"
+        app:layout_constraintLeft_toRightOf="@id/floor_caption" />
+
+    <TextView
+        android:id="@+id/street_caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="24dp"
+        android:text="Улица: "
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/floorCount_caption"
+
+        />
+
+    <TextView
+        android:id="@+id/street"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBaseline_toBaselineOf="@id/street_caption"
+        app:layout_constraintLeft_toRightOf="@id/street_caption"
+        android:fontFamily="serif-monospace"
+        android:text="Lorem ipsum"
+        />
+
+    <TextView
+        android:id="@+id/type_caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="24dp"
+        android:text="Тип здания: "
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/street_caption"
+
+        />
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:fontFamily="serif-monospace"
+        android:text="Lorem ipsum"
+        app:layout_constraintBaseline_toBaselineOf="@id/type_caption"
+        app:layout_constraintLeft_toRightOf="@id/type_caption" />
+
+    <TextView
+        android:id="@+id/time_caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="24dp"
+        android:text="Срок эксплуатации: "
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/type_caption"
+
+        />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBaseline_toBaselineOf="@id/time_caption"
+        app:layout_constraintLeft_toRightOf="@id/time_caption"
+        android:fontFamily="serif-monospace"
+        android:text="Lorem ipsum"
+        />
+    <LinearLayout
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Удалить"
+            android:layout_margin="5dp"
+            />
+        <Button
+            android:id="@+id/edit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Редактировать"
+            android:layout_margin="5dp"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
